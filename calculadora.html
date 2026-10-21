@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="calculadora.png">
+        <title>Calculadora</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>  
+        <table>
+            <tr>
+                <td colspan="4"><div id="head"><input type="text" id="pantalla" readonly></div></td>    
+            </tr>
+            
+            <tr>       
+                <td colspan="2"><div class="base"><button id="borrar">C</button></td>
+                <td colspan="2"><div class="base"><button id="limpiar">AC</button></td>
+            </tr>
+            <tr>
+                <td><div class="base"><button id="num1">1</button></div></td>
+                <td><div class="base"><button id="num2">2</button></div></td>
+                <td><div class="base"><button id="num3">3</button></div></td>
+                <td><div class="base"><button id="divi">÷</button></div></td>
+            </tr>
+            <tr>
+                <td><div class="base"><button id="num4">4</button></div></td>
+                <td><div class="base"><button id="num5">5</button></div></td>
+                <td><div class="base"><button id="num6">6</button></div></td>
+                <td><div class="base"><button id="multi">x</button></div></td>
+            </tr>
+            <tr>
+                <td><div class="base"><button id="num7">7</button></div></td>
+                <td><div class="base"><button id="num8">8</button></div></td>
+                <td><div class="base"><button id="num9">9</button></div></td>
+                <td><div class="base"><button id="resta">-</button></div></td>
+            </tr>
+            <tr>
+                <td><div class="base"><button id="num0">0</button></div></td>
+                <td><div class="base"><button id="num00">00</button></div></td>
+                <td><div class="base"><button id="punto">.</button></div></td>
+                <td rowspan="2"><div class="base"><button id="sum">+</button></div></td>
+            </tr>
+            <tr>
+                <td colspan="3"><div class="base"><button id="igual">=</button></div></td>
+            </tr>
+        </table>
+    </body>
+</html>
